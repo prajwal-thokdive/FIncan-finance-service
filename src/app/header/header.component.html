@@ -1,0 +1,37 @@
+<header>
+    <div class="header" id="Header">
+        <div class="mail">
+            <i class="fa-solid fa-envelope fa-beat fa-xl"></i> <span> E-mail: info@fincab.co </span>
+        </div>
+        <div class="phone">
+            <i class="fa-solid fa-square-phone fa-beat fa-xl"></i> <span> Contact Us : ( +971 ) 585334661</span>
+        </div>
+    </div>
+</header>
+<nav>
+    <img class="logo" width="250px"  height="auto"  src="../assets/img/Fincab.jpg" alt="">
+    <ul>
+        <li><a routerLink="/home">Home</a></li>
+        <li><a routerLink="/aboutus" >About Us</a></li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggl" routerLink="/services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+            </a>
+            <ul class="dropdown-menu" style="visibility: visible !important;
+                background-color: transparent !important;
+                border: 0 !important;
+                transform: none !important;">
+                <li><a class="dropdown-item" routerLink="/busienss-loan">BUSINESS LOAN (SME)</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" routerLink="/trade_finance">TRADE FINANCE FACILITIES </a></li>
+                <li><a class="dropdown-item" routerLink="/business_account">BUSINESS ACCOUNT OPENINGS </a></li>
+                <li><a class="dropdown-item" routerLink="/mortgage-loan">MORTGAGE LOAN</a></li>
+                <li><a class="dropdown-item" routerLink="/personal-loan" >PERSONAL LOAN</a></li>
+            </ul>
+        </li>
+
+        <li><a routerLink="/contactus">Contact Us</a></li>
+    </ul>
+</nav>

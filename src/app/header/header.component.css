@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    height: 50px;
+    background-color: #065904;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.mail {
+    padding: 30px;
+    color: aliceblue;
+    font-weight: 500;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+}
+
+.phone {
+    color: aliceblue;
+    /* font-family: Georgia, Times, 'Times New Roman', serif; */
+
+}
+
+i {
+    text-shadow: 2px 4px 6px #065;
+    padding-right: 6px;
+}
+
+
+
+nav {
+    width: 100%;
+    height: auto;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    /* text-align: center; */
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #065904;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    font-weight: 500;
+}
+
+nav ul li a::after {
+    content: ' ';
+    width: 0;
+    height: 3px;
+    background: #bc1b1b;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}

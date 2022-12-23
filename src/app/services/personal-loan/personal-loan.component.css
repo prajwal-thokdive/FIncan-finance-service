@@ -1,0 +1,45 @@
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("https://i.pinimg.com/originals/3a/3b/7b/3a3b7b936e3ff87016de28ea865cbbb6.jpg");
+    background-size: cover;
+    background-position: center;
+    /* margin-top: 10px; */
+    color: #fff;
+    
+}
+
+.icon{
+    font-size: 40px;
+    margin: 15px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+.col-md-4:hover{
+   box-shadow: 5px 7px 9px 3px rgba(255, 255, 255, 0.5);
+   cursor: pointer;
+}
+
+.row{
+    margin: 30px 0;
+}
+
+h3{
+    border-bottom:1px solid blue ;
+    color: orange;
+}
+
+p{
+    text-align:left;
+    line-height:5vh;
+    letter-spacing: 1.2px;
+
+}
+p span i{
+    margin-right: 16px;
+
+}
+
+.dropdown{
+    margin: 30px 0 ;
+}

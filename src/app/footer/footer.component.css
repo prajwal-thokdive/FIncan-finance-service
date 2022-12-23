@@ -1,0 +1,281 @@
+/* footer {
+    width: 100%;
+    height: 20vw;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(#000, #000);
+    color: #fff;
+    padding: 20px 0 30px; 
+    line-height: 20px;
+    align-items: center;
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start ;
+    justify-content: space-between;
+
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+
+}
+
+.Dlogo{
+   width: 300px;
+   margin-bottom: 60px;
+  
+}
+
+.col h5{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    font-weight: 600;
+
+}
+
+.mail-id{
+    border-bottom: 2px solid gray;
+}
+
+
+.footer-bottom{
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#000;
+    bottom: 0 !important;
+    padding: 30px 0;
+    
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: capitalize;
+    opacity: .4;
+    font-weight: 400;
+    letter-spacing: 1px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: #d9d9d9;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+footer{
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    background: #111;
+
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.main-content .box{
+    flex-basis: 50% ;
+    padding: 10px 20px;
+}
+
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .offer{
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+.box .offer::before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+}
+
+.box .offer::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #f12020;
+    top: -10px;
+}
+
+.box .offer p{
+    text-align: justify;
+    letter-spacing: 1.2px;
+
+}
+
+.left .offer .social{
+    margin: 20px 0 0 0;
+}
+
+.left .offer .social a{
+    padding: 0 2px;
+}
+
+.left .offer .social a span {
+    height: 60px;
+    width: 50px;
+    background: #1a1a1a;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.left .offer .social a span:hover{
+    background: #be2321;
+}
+
+.center .offer .fas{
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.center .offer .fas:hover{
+    background: #be2321;
+}
+
+.center .offer .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.center .offer .phone{
+    margin: 10px 0;
+}
+
+.right form .text{
+    font-size: 1.0625rem;
+    margin-bottom:  2px;
+    color: #656565;
+}
+
+.right form .msg{
+    margin-top: 10px;
+}
+
+.right form input, .right form textarea {
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #151515;
+    padding-left:10px;
+    border: 1px solid #222222;
+
+}
+
+.right form input:focus,
+.right form textarea:focus{
+    outline-color:#3498db;
+}
+
+.right form input{
+    height: 35px;
+}
+
+.right form.btn{
+    margin-top: 10px;
+
+}
+
+.right form .btn button{
+    height: 40px;
+    width: 100px ;
+    border: none;
+    outline: none;
+    background: #f12020;
+    color: white;
+    /* padding: 0 80px; */
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.right form .btn button:hover{
+    background: #065904;
+}
+
+.bottom .centerbtm{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+}
+
+.bottom .centerbtm span{
+    color: #656565;
+}
+
+.bottom .centerbtm a {
+    color: #f12020;
+    text-decoration: none;
+}
+
+.bottom .centerbtm a:hover{
+    text-decoration: underline;
+}
+
+.centerbtm{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* letter-spacing: 1px; */
+    margin-right: 20px;
+}
+
+.whatsapp_float{
+    position: fixed;
+    bottom: 43px;
+    right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    footer{
+        position: relative;
+        bottom: 0px;
+    }
+
+    .main-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .main-content .box{
+        margin: 5px 0;
+    }
+}

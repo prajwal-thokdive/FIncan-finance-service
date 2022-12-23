@@ -1,0 +1,164 @@
+<style>
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    .container p {
+        margin-bottom: 40px;
+    }
+
+    .input-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .input-row .input-group {
+        flex-basis: 45%;
+
+    }
+
+    input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+        padding-bottom: 4px;
+    }
+
+    select {
+        width: 100%;
+        height: 28px;
+        margin-top: 26px;
+        cursor: pointer;
+    }
+
+    textarea {
+        width: 100%;
+        border: 1px solid #ccc;
+        outline: none;
+        padding: 10px;
+        box-sizing: border-box;
+
+    }
+
+    label {
+        margin-bottom: 5px;
+        display: block;
+        color: #1c00b5;
+
+    }
+
+    .msg {
+        background: #065904;
+        width: 100px;
+        border: none;
+        outline: none;
+        color: #fff;
+        height: 35px;
+        border-radius: 30px;
+        margin-top: 10px;
+        box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3)
+    }
+
+    .contact-left h3 {
+        color: #1c00b5;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    .contact-right h3 {
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+</style>
+<!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../assets/img/mission bnr.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="../assets/img/contact bnr.png" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div> -->
+<div class="container" style="width: 100%;
+           margin: 90px auto;height:auto; text-align: center;">
+
+    <h1>Connect with us</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Beatae voluptates quisquam temporibus.</p>
+    <div class="contact-box1" style="display:flex; background: #fff; color:black ;">
+        <div class="contact-left" style=" flex-basis: 60%;padding: 40px 60px;">
+            <h3>Please Fill In The Details Below</h3>
+            <form action="https://formsubmit.co/el/info@fincab.co" method="POST">
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" name="Name" placeholder="Enter your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Phone</label>
+                        <input type="text" name="Contact" placeholder="+971 77554477" required>
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" name="Email" placeholder="ENter your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Subject</label>
+                        <select name="Subject">
+                            <option>Select Subject</option>
+                            <option>Bussiness loan</option>
+                            <option>Trade Finance Facilities</option>
+                            <option>Bussiness account opening</option>
+                            <option>Mortgage Loan</option>
+                            <option>Personal Loan</option>
+                        </select>
+                    </div>
+                </div>
+                <label>Message</label>
+                <textarea name="Message" placeholder="Message" rows="5" required></textarea>
+                <button class="msg" type="submit">Send</button>
+            </form>
+        </div>
+        <div class="contact-right" style="flex-basis: 40%;
+        padding: 40px;
+        background: blue;color: white;">
+
+            <h3>TO REACH US</h3>
+
+            <table>
+                <tr>
+                    <td><span> <i class="fa-regular fa-envelope fa-xl fa-beat"></i> </span> Email</td>
+                </tr>
+                <tr>
+                    <td> info.fincab.co</td>
+                </tr>
+                <hr>
+                <tr>
+                    <td><i class="fa-solid fa-phone fa-beat"></i> Contact</td>
+                </tr>
+                <tr>
+                    <td>(+971)585334661</td>
+                </tr>
+                <hr>
+                <tr>
+                    <td><i class="fa-solid fa-location-dot fa-beat "> </i> Address</td>
+                </tr>
+                <tr>
+                    <td>Office No.230,5th floor, Al Wasi Building -364,Karama Dubai (UAE)</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
